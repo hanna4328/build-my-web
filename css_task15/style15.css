@@ -1,0 +1,54 @@
+body{
+    background-image: url('banner.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.base{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    font-family: sans-serif;
+}
+.box{
+    background-color: rgb(228, 226, 226);
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 350px;
+
+}
+label{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: auto;
+    height: 1px;
+    background-color: rgb(218, 214, 214);
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+}
+input[type="button"]{
+    background-color: rgb(31, 30, 30);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 370px;
+    margin: 15px;
+}

@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: auto;
+    padding: 20px;
+    width: 600px;
+    border: solid 2px rgb(91, 88, 88);
+    margin: 10px;
+}
+.heads{
+    font-family: sans-serif;
+    margin: 20px;
+    width: 450px;
+}
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%; 
+    border: 2px solid rgb(104, 101, 101);
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(245, 239, 239);
+    vertical-align: middle;
+    margin-right: 15px;
+
+}

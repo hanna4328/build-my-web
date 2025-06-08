@@ -5,7 +5,7 @@ body {
 }
 .navbar {
   transition: all 0.3s ease-in-out;
-  background :linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(75,0,130,0.6));
+  background-color: #201545;
   height: 70px;
 }
 
@@ -14,6 +14,18 @@ body {
   letter-spacing: 1px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background: rgba(31, 10, 70, 0.7); /* #31173a with 70% opacity */
+    backdrop-filter: blur(12px);       /* Glass blur effect */
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    border-radius: 0 0 12px 12px;
+    padding: 1rem;
+    z-index: 999;
+  }
+}
+
 #hero {
   background: linear-gradient(to right, #a8e063, #56ab2f);
   color: white;
